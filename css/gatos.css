@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+h1, h2 {
+    font-family: 'Georgia', serif;
+	font-size: 50pt;	
+}
+
+
+.card{
+	align-items: center;
+}
+.btn,.btn-primary{
+	margin-left: auto;
+	margin-right: auto;
+}
+.carousel-inner{
+	width: 318px;
+	height: 150px;
+}
+#collapseOne1{
+	color: black;
+}
+.collage img {
+  object-fit: cover; 
+  width: 100%; 
+  height: 200px; 
+  border-radius: 8px; 
+}
+
+.collage .big-image img {
+  height: 400px; 
+}
+.carousel-control-next,.carousel-control-prev{
+	background-color: #000545;
+}
